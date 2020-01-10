@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.jss.-autoupdate</string>
+	<string>com.github.NicholasRKing.jss.Dropox-autoupdate</string>
 	<key>Input</key>
 	<dict>
 		<key>GROUP_NAME</key>
