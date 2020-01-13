@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Skype</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Productivity</string>
+		<key>Comment</key>
+		<string>Note: PlistReader without variable injection in AutoPkg requires setting "version" input key to an empty string, as below.</string>
+		<key>DOWNLOAD_URL</key>
+		<string>https://go.skype.com/mac.download</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>CFBundleVersionSmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>Skype</string>
+		<key>OS_REQUIREMENTS</key>
+		<string>10.15.x,10.14.x,10.13.x,10.12.x,10.11.x,10.10.x,10.9.x</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Skype is a freemium voice over IP service and instant messaging client, currently developed by Microsoft-owned Skype Technologies.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Skype.png</string>
+		<key>version</key>
+		<string></string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.Skype</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.Skype</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d90de42ea54f8aee351d71f4ad694735285f2679</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Skype/Skype.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>76dfdf1d0d3b011df75a58e41c4e190156cd6be119176d5bf9d4e57f83bf6b2a</string>
+			</dict>
+			<key>com.github.autopkg.pkg.Skype</key>
+			<dict>
+				<key>git_hash</key>
+				<string>cb1ffba34aeafc5c96bdca9c15da65b957c50e2e</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Skype/Skype.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>3648a41ea38283a835a90163497cc53b5106b89277bc2a062b05cba7fe20f598</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.Skype</key>
+			<dict>
+				<key>git_hash</key>
+				<string>87061203b02fc1a13c5d31dae7689ce0819264e3</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Skype/Skype.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>a872af1333a847c39c3169f63cf4dce85b7b2ed4e1c456fc901f05e20fab4756</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

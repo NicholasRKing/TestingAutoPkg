@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Adobe Acrobat DC</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Productivity</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>Adobe Acrobat DCSmartGroupTemplate.xml</string>
+		<key>LANGUAGE</key>
+		<string>English</string>
+		<key>MAJOR_VERSION</key>
+		<string>AcrobatDC</string>
+		<key>NAME</key>
+		<string>Adobe Acrobat DC</string>
+		<key>OS_REQUIREMENTS</key>
+		<string>10.15.x,10.14.x,10.13.x,10.12.x</string>
+		<key>OS_VERSION</key>
+		<string>10.9.0</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Speed business processes and let employees work anywhere with all-new Adobe Acrobat DC products and Adobe Document Cloud.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Adobe Acrobat DC.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.AdobeAcrobatDC</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>com.github.autopkg.novaksam-recipes.Processors/AdobeAcrobatDcUpdateInfoProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>71c2d0007cfa9986cb19d21864bdfc72b57fb201</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/Processors/AdobeAcrobatDcUpdateInfoProvider.py</string>
+				<key>sha256_hash</key>
+				<string>e3d2d30053fb18348a9e49b441cbfcff14d8ef86f8ec39a7aec7a3a73a2cba9c</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jss-recipes.jss.AdobeAcrobatDC</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b4f8462322995de09ea6e2ed280770f9af0c6df8</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Adobe Acrobat DC/Adobe Acrobat DC.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>91422881c5ca7e2c724c634be5dafc8491947f38f073fae5361b9ec928ae3f88</string>
+			</dict>
+			<key>com.github.novaksam.download.AdobeAcrobatDCUpdate</key>
+			<dict>
+				<key>git_hash</key>
+				<string>7bb5ae7f250d14a7f02f01e1b7646eca4121ebfc</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/Recipes - Download/AdobeAcrobatDCUpdates.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>47fb51c441d9476668d63a69f867b64d87f5528a34bd24f62ae2e144c47e2360</string>
+			</dict>
+			<key>com.github.novaksam.pkg.AdobeAcrobatDCUpdate</key>
+			<dict>
+				<key>git_hash</key>
+				<string>eba3d0160acb4e5d6e2c4fc5c36d236fbc412e11</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/Recipes - pkg/AdobeAcrobatDCUpdate.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>6b641704bc86e5cb808980a86e28135655d8ad24276f752c18520cea03c42317</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

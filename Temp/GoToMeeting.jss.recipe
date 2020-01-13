@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.GoToMeeting</string>
+	<key>Input</key>
+	<dict>
+		<key>BUNDLE_ID</key>
+		<string>com.citrixonline.GoToMeeting</string>
+		<key>CATEGORY</key>
+		<string>Productivity</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>GoToMeeting</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>GoToMeeting is a web-hosted service created and marketed by the Online Services division of Citrix Systems. It is an online meeting, desktop sharing, and video conferencing software that enables the user to meet with other computer users, customers, clients or colleagues via the Internet in real time.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>GoToMeeting.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.GoToMeeting</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>GoToMeetingURLProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>51d8b8ceb874ce6273fe319ccc8fc9fa6dfeade4</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/GoToMeeting/GoToMeetingURLProvider.py</string>
+				<key>sha256_hash</key>
+				<string>1bf45f824d8f83767a8e126a9a8d0f41e58fdc3ca3c4356bc034ed817600f2ab</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.homebysix.download.GoToMeeting</key>
+			<dict>
+				<key>git_hash</key>
+				<string>abd9c7d9c8764f87ef48acea70ebac41503362e8</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/GoToMeeting/GoToMeeting.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>8067df2b88eacdf72d2a836be5bb9b4883fb84b93edccfb64a70e23b80151d54</string>
+			</dict>
+			<key>com.github.homebysix.pkg.GoToMeeting</key>
+			<dict>
+				<key>git_hash</key>
+				<string>abd9c7d9c8764f87ef48acea70ebac41503362e8</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/GoToMeeting/GoToMeeting.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>39e3b841d902f3d84e75d4933f5ae7d832e9f2da594bbd0a3eeff54a604bfcba</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.GoToMeeting</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1d494dc28101da3b605f94db6827b6ab8970fe77</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/GoToMeeting/GoToMeeting.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>699b8618f051b543e54e4bc95bbfc9085e98bb65e907602ae82de0c0254d8f54</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
